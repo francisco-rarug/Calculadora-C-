@@ -34,7 +34,7 @@ namespace Rarug.Francisco.Calculadora
 
             Button btn = sender as Button;
 
-            if (btn != null && btn.Tag != null) 
+            if (btn != null && btn.Tag != null)
             {
                 tbDisplay.Text += btn.Tag.ToString();
             }
@@ -73,7 +73,7 @@ namespace Rarug.Francisco.Calculadora
                 case Operacion.Division:
                     if (valor2 == 0)
                     {
-                        MessageBox.Show("No se puede dividir por cero.");
+                        MessageBox.Show("No se puede dividir por cero.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         return;
                     }
                     resultado = valor1 / valor2;
@@ -97,9 +97,27 @@ namespace Rarug.Francisco.Calculadora
             }
 
             Button btn = sender as Button;
-            operacion = (Operacion)btn.Tag;
-            tbDisplay.Text = "";
+
+            if (btn != null && btn.Tag != null)
+            {
+                // Intentamos convertir el Tag a int
+                if (int.TryParse(btn.Tag.ToString(), out int operacionTag))
+                {
+                    operacion = (Operacion)operacionTag;
+                    tbDisplay.Text = "";
+                }
+                else
+                {
+                    MessageBox.Show("El botón no tiene una operación asociada válida.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("El botón no tiene una operación asociada.");
+            }
         }
+
+
 
 
         private void btnPunto_Click(object sender, EventArgs e)

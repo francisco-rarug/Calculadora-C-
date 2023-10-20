@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             tbDisplay = new TextBox();
             btnSuma = new Button();
             btnResta = new Button();
@@ -65,6 +66,7 @@
             btnSuma.Name = "btnSuma";
             btnSuma.Size = new Size(82, 44);
             btnSuma.TabIndex = 1;
+            btnSuma.Tag = "1";
             btnSuma.Text = "+";
             btnSuma.UseVisualStyleBackColor = true;
             btnSuma.Click += btnOperacion_Click;
@@ -77,6 +79,7 @@
             btnResta.Name = "btnResta";
             btnResta.Size = new Size(82, 44);
             btnResta.TabIndex = 2;
+            btnResta.Tag = "2";
             btnResta.Text = "-";
             btnResta.UseVisualStyleBackColor = true;
             btnResta.Click += btnOperacion_Click;
@@ -89,6 +92,7 @@
             btnMultiplicacion.Name = "btnMultiplicacion";
             btnMultiplicacion.Size = new Size(82, 44);
             btnMultiplicacion.TabIndex = 3;
+            btnMultiplicacion.Tag = "3";
             btnMultiplicacion.Text = "x";
             btnMultiplicacion.UseVisualStyleBackColor = true;
             btnMultiplicacion.Click += btnOperacion_Click;
@@ -245,6 +249,7 @@
             btnDivision.Name = "btnDivision";
             btnDivision.Size = new Size(82, 42);
             btnDivision.TabIndex = 16;
+            btnDivision.Tag = "4";
             btnDivision.Text = "/";
             btnDivision.UseVisualStyleBackColor = true;
             btnDivision.Click += btnOperacion_Click;
@@ -287,7 +292,9 @@
             Controls.Add(btnResta);
             Controls.Add(btnSuma);
             Controls.Add(tbDisplay);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculadora";
             ResumeLayout(false);
             PerformLayout();
