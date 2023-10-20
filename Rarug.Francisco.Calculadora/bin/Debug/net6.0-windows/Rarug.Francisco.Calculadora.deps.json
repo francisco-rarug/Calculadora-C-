@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Rarug.Francisco.Calculadora/1.0.0": {
+        "runtime": {
+          "Rarug.Francisco.Calculadora.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rarug.Francisco.Calculadora/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

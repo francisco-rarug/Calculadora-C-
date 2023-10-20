@@ -1,0 +1,17 @@
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\bin\Debug\net6.0-windows\Rarug.Francisco.Calculadora.exe
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\bin\Debug\net6.0-windows\Rarug.Francisco.Calculadora.deps.json
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\bin\Debug\net6.0-windows\Rarug.Francisco.Calculadora.runtimeconfig.json
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\bin\Debug\net6.0-windows\Rarug.Francisco.Calculadora.dll
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\bin\Debug\net6.0-windows\Rarug.Francisco.Calculadora.pdb
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.csproj.AssemblyReference.cache
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.Form1.resources
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.csproj.GenerateResource.cache
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.AssemblyInfoInputs.cache
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.AssemblyInfo.cs
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.dll
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\refint\Rarug.Francisco.Calculadora.dll
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.pdb
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\Rarug.Francisco.Calculadora.genruntimeconfig.cache
+C:\Users\frarug\source\repos\Rarug.Francisco.Calculadora\Rarug.Francisco.Calculadora\obj\Debug\net6.0-windows\ref\Rarug.Francisco.Calculadora.dll
